@@ -1,4 +1,36 @@
-.header >  h1 {
-    background-color: aquamarine;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Sofia', 'Courier New', Courier, monospace;
+}
+.header {
+background-color: rgb(37, 34, 34);
+padding: 20px;
+}
+.header > h1 {
+  color: 	rgb(30, 124, 233);
+  text-align: left;
+  font-size: 30px;
+  font-style: italic;
+}
+.search-bar {
+  padding: 20px;
+}
+.search {
+  position: absolute;
+  left: 30%;
+  height: 50px;
+  width: 496px;
+  font-size: 15px;
+}
+.search-button {
+  position: absolute;
+  margin-left: 85%;
+}
 
+.search-for {
+  height: 50px;
+  width: 70px;
+  background: rgb(30, 124, 233);
+  color: #fff;
 }
