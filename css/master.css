@@ -1,11 +1,13 @@
-* {
+body {
   margin: 0;
   padding: 0;
   font-family: 'Sofia', 'Courier New', Courier, monospace;
+
 }
 .header {
 background-color: rgb(37, 34, 34);
 padding: 20px;
+
 }
 .header > h1 {
   color: 	rgb(30, 124, 233);
@@ -14,23 +16,20 @@ padding: 20px;
   font-style: italic;
 }
 .search-bar {
+  margin-left: 30%;
   padding: 20px;
+  display: block;
+
 }
-.search {
-  position: absolute;
+.search-bar > .search {
   left: 30%;
   height: 50px;
   width: 496px;
   font-size: 15px;
 }
 .search-button {
-  position: absolute;
-  margin-left: 85%;
-}
-
-.search-for {
-  height: 50px;
-  width: 70px;
-  background: rgb(30, 124, 233);
-  color: #fff;
+display: inline;
+height: 50px;
+width: 70px;
+background-color: rgb(30, 124, 233);
 }
