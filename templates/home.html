@@ -1,0 +1,21 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Weather App</h1>
+    <form action="/" method="POST">
+        <input name="city" placeholder="Enter a city name...">
+        <input type="submit">
+    </form class="Weather-app">
+    {% if data %}
+    <p>{{data}}</p>
+    {% endif %}
+</body>
+
+</html>

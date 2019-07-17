@@ -1,1 +1,2 @@
-# Weather App (In Progress...)
+# Weather App 
+Made with Flask & Open Weather API
